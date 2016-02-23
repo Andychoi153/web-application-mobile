@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\user\Desktop\Project\imageupload\app\src\main\assets"><file name="index.html" path="C:\Users\user\Desktop\Project\imageupload\app\src\main\assets\index.html"/><file name="jquery-1.9.0.min.js" path="C:\Users\user\Desktop\Project\imageupload\app\src\main\assets\jquery-1.9.0.min.js"/></source></dataSet><dataSet config="debug"><source path="C:\Users\user\Desktop\Project\imageupload\app\src\debug\assets"/></dataSet></merger>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="utf-8" />
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport"
+	content="width=device-width,maximum-scale=1,user-scalable=no">
+
+<script type="text/javascript" src="jquery-1.9.0.min.js"></script>
+
+<script type="text/javascript">
+	// function ios (version) {
+	// alert("23");
+	// var uagent = navigator.userAgent.toLowerCase();
+	// var iosPath = location.protocol + '//' + location.host + '/eventapp/Airtel/build.plist';
+	// window.location.href = 'itms-services://?action=download-manifest&url=' + iosPath;
+	// };
+	$( document ).delegate("#input_upload_sample", "click", function () {
+		var isKitkat = window.navigator.userAgent.search( "MobileApp Android 4.4") > -1 ? true : false;
+		
+		if ( isKitkat ) {
+			
+		window.Android.open("input_upload_sample", "thumbnail1");
+		}
+	})
+</script>
+
+</head>
+<body>
+	<div class="wrap">
+		<img id="thumbnail1" style="width : 200px; height : 200px;"/>
+		<input id="input_upload_sample" type="file"></input>
+	</div>
+</body>
+</html>

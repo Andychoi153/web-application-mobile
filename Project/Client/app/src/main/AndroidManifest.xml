@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.seogijeong.client" >
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dust"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar"
+        >
+        <activity
+            android:name=".main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".tcp"
+            android:label="@string/title_activity_tcp" >
+        </activity>
+
+        <activity
+            android:name=".test1"
+            android:label="@string/title_activity_test1" >
+        </activity>
+
+    </application>
+
+</manifest>
